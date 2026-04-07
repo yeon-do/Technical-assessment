@@ -48,7 +48,7 @@ Applied diverse statistical methodologies ranging from simple linear regression 
 * **Language:** R
 
 **Key Contributions:**
-* **Step-by-step Modeling & Problem Solving:** Applied optimal regression methods—from basic simple/multiple linear regression to Ridge and Lasso estimators—to datasets with diverse characteristics, writing analytical code to solve textbook exercises.
+* **Step-by-step Modeling & Problem Solving:** Applied optimal regression methods from basic simple/multiple linear regression to Ridge and Lasso estimators to datasets with diverse characteristics, writing analytical code to solve textbook exercises.
 * **Model Diagnostics & Peer Review:** Conducted rigorous residual analysis (testing for normality and homoscedasticity) on the derived models. Compared and debated results with other teams to identify modeling limitations and propose methodological improvements.
 
 **🎞 Final Presentation: In-depth Analysis of Dummy Variable Regression**
@@ -96,7 +96,7 @@ A gamification-based educational solution designed to promote correct waste sepa
 * * **Language:** JavaScript
 
 **Key Contributions:**
-* **Frontend & Game Engine Development:** Developed the core game logic—including waste sorting gameplay, pre-treatment action missions, and quizzes—using the Phaser3 framework and JavaScript for an engaging UI/UX.
+* **Frontend & Game Engine Development:** Developed the core game logic including waste sorting gameplay, pretreatment action missions, and quizzes using the Phaser3 framework and JavaScript for an engaging UI/UX.
 * **Project Planning & Client Communication:** Directly communicated with the Refeely CEO to translate business requirements into technical features. Successfully integrated real-world reward systems, such as linking product QR codes and converting in-game points to the company's online mall.
 * **Driving ESG Impact:** Contributed to a solution where 77.6% of test users reported an improved willingness to practice eco-friendly behaviors, targeting a measurable increase in nationwide recycling rates.
 
