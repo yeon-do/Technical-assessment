@@ -1,54 +1,34 @@
-#📜 Gyeongbin Ryoo Portfolio
-Gyeongbin Ryoo(류경빈) - growingpenguin Portfolio🐧
+# 📜 Doyeon Park Portfolio
+Doyeon Park - yeon-do Portfolio for Technical assessment
 
 
-#👋 Introduction
+# 👋 Introduction
 Hello! "I am someone who thrives on learning and embracing new challenges!"
 I have worked as an undergraduate research assistant at the Marine Hydrodynamics AI Lab and the Mobility Service Research Lab.
 
 🎤 Presenting my research as an author at domestic and international conferences has sharpened my expertise in deep learning development.
 
-#💡 As a student researcher, I gained hands-on experience in:
+# 📌 Projects Overview
+| Project | Period | Role | Tech Stack |
+|------|------|------|------|
+| Project | 2025.07 - Present | Present	Research Intern | Python, LLM, KG |
+| Applied Regression | 2025.09 - 2025.12 | Main Researcher | R, Statistics |
+| Fashion AI Predictor | 2024.09 - 2024.11 | Model Architect | Python, PyTorch |
+| REFEELY (Web Game) | 2025.03 - 2025.07 | Frontend Dev | JS, Phaser3 |
 
-Developing AI algorithms and executable (.exe) AI services
-Contributing to business planning through corporate projects
-🔒 Due to confidentiality, corporate project details are summarized, while highlights from my club activities are showcased in code, image, and video formats.
+# 📝 Projects
+j provide
 
-📖 Learn more about my work on my blog.
 
-#👋 Technologies and Tools
-Using a combination of cutting-edge technologies and reliable open-source software
--Programming Languages
-C/C++, Python
--Libraries and Frameworks
-pandas, NumPy, TensorFlow, PyTorch, OpenCV
--Cloud Services
-AWS
--Web Development
-HTML, CSS, JavaScript
+## 1. Designing Connection Scenarios for Robot-Friendly Buildings and Enhancing Business Models 🔨
+1. 🔬 Research Workflow & Paper ReproductionResearch Intern at Data Mining Lab, Hanyang UniversityFocus : Enhancing research reproducibility in Sequential Recommendation Systems.Key Contribution : Constructed Knowledge Graphs from item data and reproduced SOTA (State-of-the-Art) paper results to establish a reliable baseline.Note : Source code is private due to lab security policies. Documentation focuses on reproduction methodology and data pipelines.
+👉 View Methodology & Workflow2.
 
-📝 Industry-Academia Collaboration Projects
-As a student researcher, I contributed to multiple industry-academia projects
-These experiences strengthened my skills in AI development, software implementation, and business planning
-I led the implementation of a deep learning sloshing prediction program under UROP, showcasing my ability to drive innovative solutions
+2. 📊 Advanced Statistical Modeling & Regression AnalysisMathematical Research on Data InterpretabilityFocus : Implementing robust regression models to capture non-linear trends.Key Tasks :Applied Ridge/Lasso regularization to solve multi-collinearity in high-dimensional data.Developed Dummy Variable models to quantify qualitative impacts.Performed rigorous Residual Diagnostics (Normality, Homoscedasticity) to ensure model validity.Theoretical Core :$$Y = X\beta + \epsilon, \quad \hat{\beta}_{Lasso} = \text{argmin} \{ \|y-X\beta\|^2 + \lambda \|\beta\|_1 \}$$
+👉 View R Scripts & Statistical Reports3.
 
-1. Designing Connection Scenarios for Robot-Friendly Buildings and Enhancing Business Models 🔨
-Funded by Hyundai NGV (Affiliated with Hyundai Motors)
-Developed standards and certification procedures for robot-friendly buildings, optimizing services through simulations.
+3. 👟 Fashion Style Classification & Preference PredictionWinner of the Excellence Award (2nd Place) by NIAFocus : Deep learning-based image classification and preference forecasting.Key Tasks :Built a classification pipeline using ResNet-18 for multi-year fashion datasets.Implemented item-based filtering for user preference prediction tasks.Outcome : Recognized for the logical consistency of the data-driven analysis.
+👉 View Project Details4.
 
-Project Timeline: 2024.06.05 – 2025.01.31
-Key Role: Intellectual Property Strategist, Patent Analyst
-
-Key Contributions:
-
-Simulation Analysis: Conducted metrics-based analysis to optimize robot-friendly environments and improve operational efficiency.
-Standard Development: Designed protocols for autonomous information exchange, set tailored support criteria, and proposed sustainable growth solutions.
-Patent Application: Reviewed competitor patents, analyzed key components, and contributed to system optimization and patent filings.
-Tools Used:
-
-OA: Microsoft Excel
-Engineering Tools: Confidential simulation framework
-🎞 On-Site Visit
-Click photo to watch video
-
-Click the photo to watch the video
+4. ♻️ REFEELY: Web-based Recycling GameCollaborative Project with KAKAO Tech ImpactFocus : Delivering complex educational content through an intuitive web interface.Key Tasks :Developed core game engine and UI interactions using Phaser3 framework.Managed version control and collaborative workflows via GitHub Issues/Projects.
+👉 Visit Website / View Code
