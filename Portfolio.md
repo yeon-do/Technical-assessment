@@ -58,6 +58,7 @@ For the final project, I designed and presented Dummy Variable Regression models
 <img src="https://github.com/user-attachments/assets/18423891-28a9-48c3-ace4-1a45c6e4ecc5" width="70%">
 
 [👉 View all exercise codes, final presentation (PPT), and reports](https://github.com/yeon-do/anlaysis-application-regression.git)
+
 <br>
 
 ## 3. Fashion Style Image Classification & Preference Prediction 👟
@@ -81,8 +82,8 @@ Developed a deep learning-based fashion style classification model and extracted
 **🎞 Project Presentation & Code**
 * [👉 View Project Presentation (PPT) & Source Code](https://github.com/yeon-do/Data_create_camp.git)
 * [💻 View Simplified Core Code (Classification, Feature Extraction & Similarity RecSys)](https://github.com/yeon-do/Data_create_camp/blob/main/Simplified%20Core%20code(Classification%2C%20Feature%20Extraction%20%26%20Similarity%20RecSys).py)
-
 <br>
+
 
 ## 4. Web-based Recycling Educational Game 'Re:Fact' ♻️
 
