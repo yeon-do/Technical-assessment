@@ -6,28 +6,35 @@ Doyeon Park - yeon-do Portfolio for Technical assessment
 # 📌 Projects Overview
 | Project | Period | Role | Tech Stack |
 |------|------|------|------|
-| Project | 2025.07 - Present | Present	Undergraduate Intern | Python, LLM, KG |
-| Applied Regression | 2025.09 - 2025.12 | Main Researcher | R, Statistics |
-| Fashion AI Predictor | 2024.09 - 2024.11 | Model Architect | Python, PyTorch |
-| REFEELY (Web Game) | 2025.03 - 2025.07 | Frontend Dev | JS, Phaser3 |
+| Project | 07.2025 - Ongoing | Present	Undergraduate Intern | Python, LLM, KG |
+| Applied Regression | 09.2025 – 12.2025 | Data Analyst | R, Statistics |
+| Fashion AI Predictor | 09. 2024 – 11. 2024 | Model Architect | Python, PyTorch |
+| REFEELY (Web Game) | 03.2025 – 07.2025 | Frontend Dev | JS, Phaser3 |
 
 
 # 📝 Projects
 
-## 1. Research Workflow & Paper Reproduction 🔬
-Affiliated with Data Mining Lab, Hanyang University
-Reproducing SOTA research results in LLM-based recommendation tasks and constructing knowledge graphs to establish reliable baselines.
+## 1. Knowledge Graph (KG)-based Sequential Recommendation Research 🔬
 
-* **Project Timeline:** 2025.07 – Present
-* **Key Role:**  Undergraduate Research Intern
-* **Tools Used:** VScode, pytorch, KG, LLM frameworks
-* **Language:** python
+**Undergraduate Research Intern @ Data Mining Lab, Hanyang University**
 
-+ **pipeline Construction**: Developed automated data preprocessing scripts to handle large-scale interaction logs for reliable model inputs.
+Extending the text-aware sequential recommendation model (GRAM) by incorporating structural data. Currently researching methodologies to apply Knowledge Graphs (KG) for enhanced item identification and path retrieval.
 
-Knowledge Graph Integration: Engineered a framework to map item metadata into structural Knowledge Graphs to generate identifiers for retrieval-based tasks.
+* **Project Timeline:** 07.2025 - Ongoing
+* **Key Role:** Literature Review, Baseline Reproduction, and KG Engineering
+* **Tools Used:** VScode, PyTorch
+* **Language:** Python
 
-Reproducibility Analysis: Documented experimental setups and aligned hyperparameters to ensure 100% replication of original papers.
+**Key Contributions:**
+* **Literature Review & Baseline Reproduction:** Conducted extensive reviews of SOTA papers on Sequential RecSys and KG applications to formulate research hypotheses. Successfully reproduced the original GRAM model and other foundational baselines to establish a robust starting point.
+* **Experimentation & Metric Standardization:** Applied custom datasets to baseline models to secure initial performance metrics. Modified the experimental setup to standardize evaluation criteria, specifically shifting from candidate sampling to a more rigorous full-ranking evaluation methodology.
+* **KG Construction & Path Analysis:** Engineered a framework to build a structural Knowledge Graph from the dataset to extract relational information. Developed algorithms to analyze the shortest paths within the KG, laying the groundwork for structural 'Item Identifier' and 'Path Retrieval' modules.
+<img src="https://github.com/user-attachments/assets/85944ba8-7d97-4b25-8f26-f0074322d8fc" width="70%"/>
+
+**🎞 Core Research Codes**
+*As the main architecture is currently under development and confidential, the attached repository contains the foundational data processing and graph analysis codes.*
+* [👉 View KG Construction & Shortest Path Analysis Codes](https://github.com/yeon-do/llmbased-rec/blob/main/FIXED_2_analyze_shortest_paths.py)
+<br>
 
 ## 2. Advanced Statistical Modeling & Regression Analysis 📊
 
@@ -35,7 +42,7 @@ Reproducibility Analysis: Documented experimental setups and aligned hyperparame
 
 Applied diverse statistical methodologies ranging from simple linear regression to regularization techniques based on varying data conditions, and conducted academic discussions and peer reviews to validate model assumptions.
 
-* **Project Timeline:** 2024.09 – 2024.12
+* **Project Timeline:** 09.2025 – 12.2025
 * **Key Role:** Data Analyst & Final Presenter
 * **Tools Used:** RStudio
 * **Language:** R
@@ -51,23 +58,31 @@ For the final project, I designed and presented Dummy Variable Regression models
 <img src="https://github.com/user-attachments/assets/18423891-28a9-48c3-ace4-1a45c6e4ecc5" width="70%">
 
 [👉 View all exercise codes, final presentation (PPT), and reports](https://github.com/yeon-do/anlaysis-application-regression.git)
+<br>
 
-## 3. Fashion Style Classification & Preference Prediction 👟
-Organized by National Information Society Agency (NIA) - Data Creator Camp
-Built a deep learning classification model for multi-year fashion images and performed item-based filtering for preference prediction tasks.
+## 3. Fashion Style Image Classification & Preference Prediction 👟
 
-* **Project Timeline:** 2024.09 – 2024.11
-* **Key Role:**  Model Architect
-* **Tools Used:** VScode, Resnet-18
-* **Language:** python
-  
+**Organized by National Information Society Agency (NIA) - Data Creator Camp**
+
+Developed a deep learning-based fashion style classification model and extracted feature vectors to build a preference prediction algorithm based on image similarity.
+
+* **Project Timeline:** 09. 2024 – 11. 2024
+* **Key Role:** Model Architect & Data Preprocessing Lead
+* **Tools Used:** VScode, Colab, PyTorch, U-2-Net, Mask R-CNN, ResNet-18
+* **Language:** Python
+
 **Key Contributions:**
-* **Computer Vision:** Fine-tuned a ResNet-18 architecture to classify multi-year fashion images into specific style categories.
+* **Advanced Image Preprocessing Pipeline:** Led the image preprocessing phase utilizing U-2-Net and Mask R-CNN for precise background removal and object segmentation. Applied robust data augmentation techniques to improve model generalization.
+* **Image Classification Model (ResNet-18):** Implemented and fine-tuned a ResNet-18 architecture to accurately classify multi-year fashion images into specific style categories.
+* **Similarity-based Preference Prediction:** Extracted latent feature vectors from the classification model to compute image similarities. Leveraged these distance metrics as item similarities to construct an item-based collaborative filtering algorithm for preference prediction.
 
-* **Preference Modeling**: Developed an item-based collaborative filtering algorithm to predict user preferences.
+**Award Recognition:** Awarded the **Excellence Award (2nd Place)** by NIA, recognized for logical consistency, innovative integration of computer vision with recommendation logic, and robust model performance.
 
-Award Recognition: Awarded the Excellence Award (Second Place) for logical consistency and robust model performance.
+**🎞 Project Presentation & Code**
+* [👉 View Project Presentation (PPT) & Source Code](https://github.com/yeon-do/Data_create_camp.git)
+* [💻 View Simplified Core Code (Classification, Feature Extraction & Similarity RecSys)](https://github.com/yeon-do/Data_create_camp/blob/main/Simplified%20Core%20code(Classification%2C%20Feature%20Extraction%20%26%20Similarity%20RecSys).py)
 
+<br>
 
 ## 4. Web-based Recycling Educational Game 'Re:Fact' ♻️
 
@@ -75,9 +90,10 @@ Award Recognition: Awarded the Excellence Award (Second Place) for logical consi
 
 A gamification-based educational solution designed to promote correct waste separation practices and improve the low recycling rate (13%) of paper cartons.
 
-* **Project Timeline:** 2025.03 – 2025.07
-* **Key Role:** Frontend Developer & Project Planner
-* **Tools Used:** JavaScript, Phaser3
+* **Project Timeline:** 03.2025 – 07.2025
+* **Key Role:** Frontend Developer
+* **Tools Used:** VScode, Phaser3
+* * **Language:** JavaScript
 
 **Key Contributions:**
 * **Frontend & Game Engine Development:** Developed the core game logic—including waste sorting gameplay, pre-treatment action missions, and quizzes—using the Phaser3 framework and JavaScript for an engaging UI/UX.
