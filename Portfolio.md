@@ -6,7 +6,7 @@ Doyeon Park - yeon-do Portfolio for Technical assessment
 # 📌 Projects Overview
 | Project | Period | Role | Tech Stack |
 |------|------|------|------|
-| Project | 07.2025 - Ongoing | Present	Undergraduate Intern | Python, LLM, KG |
+| Undergraduate Research Intern @ Data Mining Lab | 07.2025 - Ongoing | Present	Undergraduate Intern | Python, LLM, KG |
 | Applied Regression | 09.2025 – 12.2025 | Data Analyst | R, Statistics |
 | Fashion AI Predictor | 09. 2024 – 11. 2024 | Model Architect | Python, PyTorch |
 | REFEELY (Web Game) | 03.2025 – 07.2025 | Frontend Dev | JS, Phaser3 |
